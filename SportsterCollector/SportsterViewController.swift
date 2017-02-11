@@ -8,20 +8,27 @@
 
 import UIKit
 
-class SportsterViewController: UIViewController {
+class SportsterViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var sportsterImageView: UIImageView!
     
     @IBOutlet weak var titleTextField: UITextField!
     
+    var imagePicker = UIImagePickerController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        imagePicker.delegate = self
     }
 
    
     @IBAction func photosTapped(_ sender: Any) {
+        
+        imagePicker.sourceType = .photoLibrary
+        
+        present(imagePicker, animated: true, completion: nil)
+        
     }
     
 
