@@ -14,6 +14,7 @@
 		8F116DFB1E4ECB9800DAD2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F116DFA1E4ECB9800DAD2B4 /* Assets.xcassets */; };
 		8F116DFE1E4ECB9800DAD2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F116DFC1E4ECB9800DAD2B4 /* LaunchScreen.storyboard */; };
 		8F116E061E4ED36900DAD2B4 /* harleysportster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F116E051E4ED36900DAD2B4 /* harleysportster.jpg */; };
+		8F116E081E4ED55E00DAD2B4 /* SportsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F116E071E4ED55E00DAD2B4 /* SportsterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8F116DFD1E4ECB9800DAD2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F116DFF1E4ECB9800DAD2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F116E051E4ED36900DAD2B4 /* harleysportster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harleysportster.jpg; sourceTree = "<group>"; };
+		8F116E071E4ED55E00DAD2B4 /* SportsterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8F116DF01E4ECB9800DAD2B4 /* AppDelegate.swift */,
 				8F116DF21E4ECB9800DAD2B4 /* ViewController.swift */,
 				8F116DF41E4ECB9800DAD2B4 /* Main.storyboard */,
+				8F116E071E4ED55E00DAD2B4 /* SportsterViewController.swift */,
 				8F116DFA1E4ECB9800DAD2B4 /* Assets.xcassets */,
 				8F116DFC1E4ECB9800DAD2B4 /* LaunchScreen.storyboard */,
 				8F116DFF1E4ECB9800DAD2B4 /* Info.plist */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F116DF91E4ECB9800DAD2B4 /* SportsterCollector.xcdatamodeld in Sources */,
+				8F116E081E4ED55E00DAD2B4 /* SportsterViewController.swift in Sources */,
 				8F116DF31E4ECB9800DAD2B4 /* ViewController.swift in Sources */,
 				8F116DF11E4ECB9800DAD2B4 /* AppDelegate.swift in Sources */,
 			);
