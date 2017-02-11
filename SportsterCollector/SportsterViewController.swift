@@ -46,7 +46,8 @@ class SportsterViewController: UIViewController, UIImagePickerControllerDelegate
 
     @IBAction func addTapped(_ sender: Any) {
         
-        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+      let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
 
         
         
